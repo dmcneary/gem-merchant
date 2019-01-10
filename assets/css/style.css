@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    background-image: url("../images/background.png");
+}
+
+.section {
+    box-shadow: 6px 10px #666;
+    padding: 15px 30px;
+    margin: 20px 10px;
+    background-color: #DDD;
+    line-height: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.emph {
+    letter-spacing: 0.1em;
+    color: mediumvioletred;
+}
+
+header h1 {
+    font-family: Cinzel;
+    font-size: 300%;
+    font-stretch: expanded;
+    font-weight: 800;
+    text-align: center; 
+}
+
+#result {
+    text-transform: uppercase;
+    color: red;
+}
+
+.status {
+    display: inline-block;
+    width: 150px;
+}

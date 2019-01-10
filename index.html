@@ -1,0 +1,42 @@
+!<!DOCTYPE html>
+<html>
+<head>
+    <title>Gem Merchant - A numbers game in jQuery</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="section">
+        <h1>Gem Merchant</h1>
+        <div id="instructions">
+            <p>You are a merchant of luxury, and a responsible one at that! You strive to sell a specific amount of precious gems to meet your needs; however, you recognize that <span class="emph">absolute wealth is immoral</span>, so you must not be greedy and sell above your sales goal.</p>
+            <p>Click on a gem to sell it - its value will then be added to your sales total.</p>
+            <p>Win the game by meeting your sales goal <span class="emph">exactly</span>. Lose the game by exceeding your sales goal (<span class="emph">you covetous pig!</span>)</p>
+            <p>The market is dynamic! Each round, your gems & sales goals will be appraised at a different value.</p>
+        </div>
+    </header>
+    <div class="section">
+        <img class="gems" id="emerald" src="assets/images/emerald.png" alt="Emerald">
+        <img class="gems" id="amethyst" src="assets/images/amethyst.png" alt="Amethyst">
+        <img class="gems" id="diamond" src="assets/images/diamond.png" alt="Diamond">
+        <img class="gems" id="ruby" src="assets/images/ruby.png" alt="Ruby">
+    </div>
+    <div class="section">
+        <div class="section status">
+            <p>Your sales goal: <span id="sales-goal"></span></p>
+        </div>
+        <div class="section status">
+            <p>Your current total: <span id="sales-total"></span></p>
+        </div>
+        <div id="counters" class="section status">
+            <p><span id="result"></span></p>
+            <p>Wins: <span id="wins"></span> ||| Losses: <span id="losses"></span></p>
+        </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
