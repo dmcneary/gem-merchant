@@ -1,7 +1,7 @@
 # gem-merchant
-## A short numbers game built on jQuery
+### A short numbers game built on jQuery
 
-### Objective:
+#### Objective:
 To sell enough gems to meet your sales goal, but not to go over as excessive profits drive greed, death, war, etc.
 
 ### Gameplay:
